@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./../imgs/tela-fundo.jpeg");
+}
+
+/*Topo*/
+.container{
+    background-color: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    max-width: 80%;
+    min-width: 60%;
+}
+
+#i_city{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #FFF;
+    width: calc(100%-100px)
+}
+
+#btn_find{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c7c;
+    cursor: pointer;
+    float: right;
+    transition: transform 0.5s;
+}
+
+#btn_find:hover{
+    transform: scale(1.1);
+}
+
+#btn_find > img{
+    width: 20px;
+    height: 10px;
+}
+
+/*Caixa media*/
+
+#medium-container{
+    margin-top: 30px;
+}
+
+#medium-container > h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+#medium-container > p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/*Caixa menor*/
+#small-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#small-container > p{
+    color: white;
+    margin-left: 20px;
+}
+
+#umidade{
+    color: white;
+    margin-top: 20px;
+}
+
