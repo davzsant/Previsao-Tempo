@@ -93,3 +93,7 @@ body{
     margin-top: 20px;
 }
 
+#ceu{
+    text-transform: capitalize;
+}
+
