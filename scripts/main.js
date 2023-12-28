@@ -1,0 +1,1 @@
+//const coisa = document.getElementbyId()
